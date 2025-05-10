@@ -1,12 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aura</title>
-    <link href="/src/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="container max-w-6xl p-5 m-auto flex justify-between">
+            <div class="nav flex">
+                <div class="nav-img">
+                    <img src="./img/logo.png" alt="img">
+                </div>
+                <ul class="header-menu menu flex space-x-9 px-10">
+                    <li class="menu-item">
+                        <a href="#!"
+                            class="menu-link text-black text-xl transition font-medium active:text-black">Авторы</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#!"
+                            class="menu-link text-btext-black text-xl transition font-medium active:text-black">Коллекции</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#!"
+                            class="menu-link text-btext-black text-xl transition font-medium active:text-black">Сервисы</a>
+                    </li>
+                </ul>
+                <div class="button1 pl-120">
+                    <button class="p-2 bg-black rounded-full border-1 px-8 text-white">Кошелёк</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="Hero">
+        <div class="hero-text bg-black">
+            <div class="container max-w-6xl m-auto flex justify-between ">
+                <div class="text-hero">
+                    <h1 class="text1 text-4xl text-white text-bold text-7xl pb-8 pt-10">Площадка <br> для реализации
+                        <br> криптостикеров
+                    </h1>
+                    <button class="p-3 bg-[#46F4DB] text-black rounded-full px-8">Купить</button>
+                    <button class="p-3 bg-[#46F4DB] text-black rounded-full px-8 border-1">Стать автором</button>
+                </div>
+                <div class="hero-img w-full">
+                    <img src="./img/stickers_hero.png" alt="img">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu items-center">
+        <div class="container flex max-w-6xl m-auto ">
+            <div class="menu1 w-1/2">
+                <div class="card">
+                    <div class="text1 flex items-center">
+                        <h1 class="text1 text-black font-bold text-6xl pb-8 pt-10 p-2">Аукцион</h1>
+                        <img class="pt-5" src="./img-1/Frame 2.png" alt="img">
+                    </div>
+                    <div class="img">
+                        <img src="img-1/Witcher-3 1 (1).png" alt="img">
+                    </div>
+                </div>
+
+            </div>
+            <div class="menu2 pt-45 p-5">
+                <div class="card1 flex w-45 h-12 rounded-full bg-slate-200 items-center">
+                    <img src="./img-1/Ellipse 2.png" alt="img">
+                    <h2 class="text-1xl p-2">Serge_VM222</h2>
+                </div>
+                <h1 class="text-4xl pt-9 pb-8">Witcherrr_3 (xml_t5)</h1>
+                <div class="cards flex">
+                    <div class="card1 flex w-46 h-32 rounded-3xl bg-slate-200 items-center p-2 ">
+                        <div class="text-1xl p-2">
+                            <p class="text-1xl p-2">Ставка:</p>
+                            <h1 class="text-4xl">0.10 ETH</h1>
+                            <p class="text-1xl p-2">$351.24</p>
+                        </div>
+                    </div>
+                    <div class="card1 flex w-70 h-32 rounded-3xl bg-black items-center p-3">
+                        <div class="text-1xl p-2 ">
+                            <p class="text-1xl text-center text-white">Окончание через:</p>
+                            <div class="Час flex">
+                                <h1 class="text-4xl font-bold text-white">01</h1> <span class="text-1xl font-bold text-white px-1">Час</span>
+                                <h1 class="text-4xl font-bold text-white">48</h1> <span class="text-1xl font-bold text-white px-1">Мин</span>
+                                <h1 class="text-4xl font-bold text-white">47</h1> <span class="text-1xl font-bold text-white px-1">Сек</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button px-160">
+        <button class="p-2 bg-sky-300 rounded-full border-1 px-8 text-white">Cделать ставку</button>
+    </div>
+
+    <div class="cards pt-20">
+        <div class="container max-w-6xl m-auto">
+            <h1 class="font-bold p-3">Другие аукционы</h1>
+            <div class="cards flex justify-between">
+        <div class="card w-62 bg-slate-200 h-72 rounded-3xl">
+            <div class="img">
+                <img class="pl-11 pt-5 pb-2" src="./img-1/Alien (1).png" alt="">
+            </div>
+            <div class="text bg-black rounded-b-2xl">
+                <div class="img flex px-3 pt-2">
+                <img src="./img-1/Ellipse 2 (1).png" alt="img">
+                <span class="pl-3 text-white">Frank.Nagval</span>
+            </div>
+                <h1 class="text-white pl-3 pt-1">Alien (green) e_e</h1>
+                <h1 class="text-sky-400 pl-3 pt-1">0.02 ETH</h1>
+                <p class="text-slate-300 pl-3 pt-1 pb-1">03 часа 25 мин 23 сек</p>
+            </div>
+        </div>
+        <div class="card w-62 bg-slate-200 h-72 rounded-3xl">
+            <div class="img ">
+                <img class="pl-11 pt-5 pb-2" src="./img-1/cobra_007.png" alt="">
+            </div>
+            <div class="text bg-black rounded-b-2xl">
+                <div class="img flex px-3 pt-2">
+                <img src="./img-1/i2.png" alt="img">
+                <span class="pl-3 text-white">CPH_777</span>
+            </div>
+                <h1 class="text-white pl-3 pt-1">CoBRRRa</h1>
+                <h1 class="text-sky-400 pl-3 pt-1">0.5 ETH</h1>
+                <p class="text-slate-300 pl-3 pt-1 pb-1">15 мин 03 сек</p>
+            </div>
+        </div>
+        <div class="card w-62 bg-slate-200 h-72 rounded-3xl">
+            <div class="img">
+                <img class="pl-11 pt-5 pb-2" src="./img-1/Diamonds.png" alt="">
+            </div>
+            <div class="text bg-black rounded-b-2xl">
+                <div class="img flex px-3 pt-2 ">
+                <img src="./img-1/Ellipse 2 (3).png" alt="img">
+                <span class="pl-3 text-white">sUpah_kiLLah</span>
+            </div>
+                <h1 class="text-white pl-3 pt-1">Diamonds (4)</h1>
+                <h1 class="text-sky-400 pl-3 pt-1">0.008 ETH</h1>
+                <p class="text-slate-300 pl-3 pt-1 pb-1">23 часа 05 мин 08 сек</p>
+            </div>
+        </div>
+        <div class="card w-62 bg-slate-200 h-72 rounded-3xl">
+            <div class="img">
+                <img class="pl-11 pt-5 pb-2" src="./img-1/Holofobia-2 (1).png" alt="">
+            </div>
+            <div class="text bg-black rounded-b-2xl">
+                <div class="img flex px-3 pt-2">
+                <img src="./img-1/Ellipse 2 (4).png" alt="img">
+                <span class="pl-3 text-white">ttgs</span>
+            </div>
+                <h1 class="text-white pl-3 pt-1">Holofobia-2</h1>
+                <h1 class="text-sky-400 pl-3 pt-1">1.0 ETH</h1>
+                <p class="text-slate-300 pl-3 pt-1 pb-1">01 час 15 мин 55 сек</p>
+            </div>
+        </div>
+    </div>
+        <div class="cards1 flex px-3 pt-2 pt-10 justify-between">
+            <div class="card w-62 bg-slate-200 h-72 rounded-3xl">
+                <div class="img">
+                    <img class="pl-11 pt-5 pb-2" src="./img-1/Baby Yoda 1.png" alt="">
+                </div>
+                <div class="text bg-black rounded-b-2xl">
+                    <div class="img flex px-3 pt-2">
+                    <img src="./img-1/Ellipse 2 (5).png" alt="img">
+                    <span class="pl-3 text-white">Peppppe22</span>
+                </div>
+                    <h1 class="text-white pl-3 pt-1">Baby Yoda 1</h1>
+                    <h1 class="text-sky-400 pl-3 pt-1">0.2 ETH</h1>
+                    <p class="text-slate-300 pl-3 pt-1 pb-1">01 час 28 мин 11 сек</p>
+                </div>
+            </div>  <div class="card w-62 bg-slate-200 h-72 rounded-3xl">
+                <div class="img">
+                    <img class="pl-11 pt-5 pb-2" src="./img-1/alien vs predator-1.png" alt="">
+                </div>
+                <div class="text bg-black rounded-b-2xl">
+                    <div class="img flex px-3 pt-2">
+                    <img src="./img-1/Ellipse 2 (6).png" alt="img">
+                    <span class="pl-3 text-white">1300e1440</span>
+                </div>
+                    <h1 class="text-white pl-3 pt-1">alien vs. predator (01)</h1>
+                    <h1 class="text-sky-400 pl-3 pt-1">0.09 ETH</h1>
+                    <p class="text-slate-300 pl-3 pt-1 pb-1">08 часов 44 мин 43 сек</p>
+                </div>
+            </div>  <div class="card w-62 bg-slate-200 h-72 rounded-3xl">
+                <div class="img">
+                    <img class="pl-11 pt-5 pb-2" src="./img-1/IAMDECEPTICON.png" alt="">
+                </div>
+                <div class="text bg-black rounded-b-2xl">
+                    <div class="img flex px-3 pt-2">
+                    <img src="./img-1/Ellipse 2 (7).png" alt="img">
+                    <span class="pl-3 text-white">Robert_Wward</span>
+                </div>
+                    <h1 class="text-white pl-3 pt-1">IAMDECEPTICON</h1>
+                    <h1 class="text-sky-400 pl-3 pt-1">0.1 ETH</h1>
+                    <p class="text-slate-300 pl-3 pt-1 pb-1">55 мин 18 сек</p>
+                </div>
+            </div>  <div class="card w-62 bg-slate-200 h-72 rounded-3xl">
+                <div class="img">
+                    <img class="pl-11 pt-5 pb-2" src="./img-1/Ghostbusters-1 1.png" alt="">
+                </div>
+                <div class="text bg-black rounded-b-2xl">
+                    <div class="img flex px-3 pt-2">
+                    <img src="./img-1/Ellipse 2 (8).png" alt="img">
+                    <span class="pl-3 text-white">ttgs</span>
+                </div>
+                    <h1 class="text-white pl-3 pt-1">Ghostbusterrrrrrrs</h1>
+                    <h1 class="text-sky-400 pl-3 pt-1">0.09 ETH</h1>
+                    <p class="text-slate-300 pl-3 pt-1 pb-1">18 мин 12 сек</p>
+                </div>
+            </div>
+       
+    </div>
+    </div>
+    <div class="button1 pl-160 pt-10 pb-8">
+        <button class="p-2 bg-sky-400 rounded-full border-1 px-14 text-white ">Все аукционы</button>
+    </div>
+    </div>
+
+    <div class="main bg-black">
+        <div class="container max-w-6xl m-auto items-center bg-black">
+            <h1 class="text-4xl text-white font-bold p-5 pt-5">🔥Новые стикеры</h1>
+        
+        <div class="main1 flex">
+            <img class="px-3" src="./img-1/Ghost-1.png" alt="img">
+            <img src="./img-1/Ghost-2.png" alt="img">
+            <img src="./img-1/Parental Advisory 1.png" alt="img">
+        </div>
+        <div class="img flex p-5 pl-118 pt-15 pb-8">
+            <img class="p-2" src="./img-1/Frame 2 (1).png" alt="img">
+            <img class="p-2" src="./img-1/Frame 20.png" alt="img">
+            <img class="p-2" src="./img-1/Frame 21.png" alt="img">
+            <img class="p-2" src="./img-1/Frame 22.png" alt="img">
+        </div>
+    </div>
+    </div>
+
+    <div class="main1 bg-black pt-5 pb-18">
+        <div class="container max-w-6xl m-auto">
+            <h1 class="text-white text-bold text-4xl p-5">Топ продаж</h1>
+         <div class="cards-1 flex gap-x-10 pb-8">
+            <div class="card1 flex w-120 h-44 rounded-4xl bg-white items-center">
+                <div class="text-1xl">
+                    <img src="./img-1/Frame 32 (2).png" alt="img">
+                </div>
+                <div class="text px-3">
+                    <h1 class="text-4xl text-black font-bold">Holofobia1</h1>
+                    <h4>4.70 ETH <span class="text-slate-300">($16,873.47)</span></h4>
+                </div>
+            </div>
+            <div class="card1 flex w-120 h-44 rounded-4xl bg-white items-center">
+                <div class="text-1xl">
+                    <img src="./img-1/Frame 32 (7).png" alt="img">
+                </div>
+                <div class="text px-3">
+                    <h1 class="text-4xl text-black font-bold">Y.EEE</h1>
+                    <h4>3.00 ETH<span class="text-slate-300">($10,731.24)</span></h4>
+                </div>
+            </div>
+        </div>
+         <div class="cards-1 flex gap-x-10 ">
+            <div class="card1 flex w-120 h-44 rounded-4xl bg-white items-center">
+                <div class="text-1xl">
+                    <img src="./img-1/Frame 32 (3).png" alt="img">
+                </div>
+                <div class="text px-3">
+                    <h1 class="text-4xl text-black font-bold">Baby Joda</h1>
+                    <h4>2.00 ETH <span class="text-slate-300">($7,121.04)</span></h4>
+                </div>
+            </div>
+            <div class="card1 flex w-120 h-44 rounded-4xl bg-white items-center">
+                <div class="text-1xl">
+                    <img src="./img-1/Frame 32 (6).png" alt="img">
+                </div>
+                <div class="text px-3">
+                    <h1 class="text-4xl text-black font-bold">Infinity_09</h1>
+                    <h4>1.6109 ETH<span class="text-slate-300">($5,762.32)</span></h4>
+                </div>
+            </div>
+        </div>
+         <div class="cards-1 flex gap-x-10 pt-10">
+            <div class="card1 flex w-120 h-44 rounded-4xl bg-white items-center">
+                <div class="text-1xl">
+                    <img src="./img-1/Frame 32 (4).png" alt="img">
+                </div>
+                <div class="text px-3">
+                    <h1 class="text-4xl text-black font-bold">Sadsadsad</h1>
+                    <h4>1.50 ETH <span class="text-slate-300">($5,365.62)</span></h4>
+                </div>
+            </div>
+            <div class="card1 flex w-120 h-44 rounded-4xl bg-white items-center">
+                <div class="text-1xl">
+                    <img src="./img-1/Frame 32 (5).png" alt="img">
+                </div>
+                <div class="text px-3">
+                    <h1 class="text-4xl text-black font-bold">Attntn</h1>
+                    <h4>1.0 ETH <span class="text-slate-300">($3,577.08)</span></h4>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-500">
+        <div class="container flex max-w-6xl m-auto">
+            <div class="text p-5">
+                <h1 class="text-white font-bold p-3">Для попадания в топ необходимо:</h1>
+                <div class="img flex">
+                    <img src="./img-1/collections.png" alt="img">
+                    <span class="px-3 text-white">Минимум пять опубликованных работ</span>
+                </div>
+                <div class="img flex">
+                    <img src="./img-1/insert_emoticon.png" alt="img">
+                    <span class="px-3 text-white">Инвайт трём коллегам по цеху</span>
+                </div>
+                <div class="img flex">
+                    <img src="./img-1/Group.png" alt="img">
+                    <span class="px-3 text-white">Верифицированный аккаунт</span>
+                </div>
+            </div>
+            <img class="px-30 p-10" src="./img-1/Frame 46.png" alt="img">
+        </div>
+        <div class="footer bg-teal-200 p-3">
+            <div class="nav flex max-w-6xl m-auto">
+                <div class="nav-img">
+                    <img src="./img/logo.png" alt="img">
+                </div>
+                <ul class="header-menu menu flex space-x-9 px-10 pl-135">
+                    <li class="menu-item">
+                        <a href="#!"
+                            class="menu-link text-black text-xl transition font-medium active:text-black">Соглашение</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#!"
+                            class="menu-link text-btext-black text-xl transition font-medium active:text-black">Лицензия</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#!"
+                            class="menu-link text-btext-black text-xl transition font-medium active:text-black">FAQ</a>
+                    </li>
+                </ul>
+               
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
